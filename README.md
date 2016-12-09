@@ -7,14 +7,19 @@ The aim of the project is to design and realize a mailbox manager. The mailbox m
 The general Architecture of the system is presented as Clients and Servers are distributed over the network.
 
 (i)A MailBoxManager manages the mail boxes. There is one mail box by user of the system and one news-box shared by all the system’s users.
+
 (ii)A UserDirectoryManager manages the users and their access to the system. In the final version of the system, the MailBoxManager verifies with the UserDirectoryManager the user rights concerning the access to the common news group.
+
 (iii)A MailBoxClient accesses the MailBoxManager services.
+
 (iiii)An AdministrationClient accesses the UserDirectoryManager services to add, remove and modify rights of the users.
 
 ### Technologies involved in the project
 
 (i)The UserDirectoryManager and the MailBoxManager are developed using JavaEE technology. All the mailboxes, the newsgroup and the user rights are persistent.
+
 (ii)The communication between the clients and the Managers will be realized through Java RMI for the administration server.
+
 (iii)For the persistence of the mailboxes, the messages and the directory, use a derby database embedded in the glassfish application server.
 
 ### Environment
