@@ -27,6 +27,7 @@ public class AccessMailBoxDBBean implements AccessMailBoxDB
 		return mail;
 	}
 	
+	//Should use the singleton pattern
 	@Override
 	public void createNewsBox(NewsBox newsbox) 
 	{
@@ -89,6 +90,7 @@ public class AccessMailBoxDBBean implements AccessMailBoxDB
 		MailBox m = this.getMailBox(id);
 		
 		Collection<Mail> mails = m.getMails();
+		//eagerly create the instance
 		mails.size();
 		
 		return mails;

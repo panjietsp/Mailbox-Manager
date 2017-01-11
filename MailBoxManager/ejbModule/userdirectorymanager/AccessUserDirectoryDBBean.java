@@ -12,6 +12,7 @@ import userdirectory.User;
 
 /**
  * Session Bean implementation class DirectoryManager
+ * We use direct queries in this side.
  */
 @Stateless
 public class AccessUserDirectoryDBBean implements AccessUserDirectoryDB
