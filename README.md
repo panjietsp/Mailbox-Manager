@@ -2,12 +2,12 @@
 
 The aim of the project is to design and realize a mailbox manager. The mailbox manager handles classical user mailboxes and a common newsgroup which may be read by every user. A directory manages the users which may access the mailbox and their rights to access different mailboxes. Only some users have the right to send messages to the common newsgroup.
 
-![User Case Diagram](Mailbox-Manager/Pictures/usercase.png)
+![User Case Diagram](https://raw.githubusercontent.com/yunkai-liu/Mailbox-Manager/master/Pictures/usercase.png)
 
 
 ### Architecture
 
-![Mailbox-Manager Structure](Mailbox-Manager/Pictures/structure.png)
+![Mailbox-Manager Structure](https://raw.githubusercontent.com/yunkai-liu/Mailbox-Manager/master/Pictures/structure.png)
 
 The general Architecture of the system is presented as Clients and Servers are distributed over the network.
 
@@ -21,7 +21,7 @@ The general Architecture of the system is presented as Clients and Servers are d
 
 ### Database Design
 
-![ER Diagram](Mailbox-Manager/Pictures/er.png)
+![ER Diagram](https://raw.githubusercontent.com/yunkai-liu/Mailbox-Manager/master/Pictures/er.png)
 
 ### Technologies Involved 
 
