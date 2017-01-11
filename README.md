@@ -2,7 +2,12 @@
 
 The aim of the project is to design and realize a mailbox manager. The mailbox manager handles classical user mailboxes and a common newsgroup which may be read by every user. A directory manages the users which may access the mailbox and their rights to access different mailboxes. Only some users have the right to send messages to the common newsgroup.
 
+![User Case Diagram](Mailbox-Manager/Pictures/usercase.png)
+
+
 ### Architecture
+
+![Mailbox-Manager Structure](Mailbox-Manager/Pictures/structure.png)
 
 The general Architecture of the system is presented as Clients and Servers are distributed over the network.
 
@@ -14,7 +19,11 @@ The general Architecture of the system is presented as Clients and Servers are d
 
 (iiii)An AdministrationClient accesses the UserDirectoryManager services to add, remove and modify rights of the users.
 
-### Technologies involved in the project
+### Database Design
+
+![ER Diagram](Mailbox-Manager/Pictures/er.png)
+
+### Technologies Involved 
 
 (i)The UserDirectoryManager and the MailBoxManager are developed using JavaEE technology. All the mailboxes, the newsgroup and the user rights are persistent.
 
@@ -53,6 +62,6 @@ show tables;
 
 We have two projects in total, an EJB project MailBoxManager and a JAVA project MailBoxManagerClient. So, import these two projects respectively into MyEclipse Workspace. Start the database and the server, deploy EJB project, then launch JAVA project.
 
-### Yunkai LIU
+### Yunkai LIU / Ke SHEN
 ### Versailles Saint-Quentin-en-Yvelines University
 
